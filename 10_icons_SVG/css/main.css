@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div,p,body,header,footer,section, article,nav
+{
+	margin:0px;
+	padding:0px;
+}
+
+.hidden
+{
+	display: none;
+}
+
+}
+body
+{
+	width:960px;
+	background-color:grey;
+}
+
+
+/* id makes a #cameraIcon*/
+/* class makes a .cameraIcon */
+/*
+#cameraIcon:detail_3_
+{ */
+/* trying to make disapear */
+
+#cameraIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+	position: absolute;
+
+
+}
+#cameraIcon:hover
+{
+	height:65%;
+	width:65%;
+	box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+  transition-timing-function: 0.3s ease-in;
+ 	padding: 10px,;
+	border-radius:15%;
+	transition: all .3s ease-in-out;
+	position: relative;
+
+	/* look at this for the other 10 */
+
+}
+
+#cameraIcon
+{
+	transition-timing-function: ease-out;
+	transition: 0.3s;
+	position: relative;
+	transform: translate(0);
+}
+
+
+
+
+#clockIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+	transform: translate(0);
+	position:relative;
+}
+
+#clockIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+  transition-timing-function: 0.3s ease-in;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in-out;
+ position:relative;
+}
+
+
+#cloudIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+	position: relative;
+		transform: translate(0);
+}
+
+#cloudIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+  transition-timing-function: 0.3s ease-in;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in-out;
+ position: relative;
+}
+
+#locationIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+		position: relative;
+			transform: translate(0);
+}
+#locationIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+  transition-timing-function: 0.3s ease-in;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in-out;
+ position: relative;
+}
+
+#phoneIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+		position: relative;
+			transform: translate(0);
+}
+
+#phoneIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+  transition-timing-function: 0.3s ease-in;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in-out;
+ position: relative;
+}
+
+
+#settingIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+		position: relative;
+			transform: translate(0);
+}
+
+#settingIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+  transition-timing-function: 0.3s ease-in;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in-out;
+ position: relative;
+}
+
+
+#snapchatIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+		position: relative;
+			transform: translate(0);
+}
+
+
+#snapchatIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+  transition-timing-function: 0.3s ease-in;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .3s ease-in-out;
+ position: relative;
+}
+
+
+
+
+#musicIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+	position: relative;
+		transform: translate(0);
+}
+#musicIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+  transition-timing-function: 0.3s ease-in;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in-out;
+ position: relative;
+}
+
+
+
+#mailIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+		position: relative;
+			transform: translate(0);
+}
+
+#mailIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+  transition-timing-function: 0.3s ease-in;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in-out;
+ position: relative;
+}
+
+
+#downloadIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+		position: relative;
+			transform: translate(0);
+}
+
+#downloadIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+  transition-timing-function: 0.3s ease-in;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in-out;
+ position: relative;
+}

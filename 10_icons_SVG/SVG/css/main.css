@@ -1,0 +1,303 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div,p,body,header,footer,section, article,nav
+{
+	margin:0px;
+	padding:0px;
+}
+
+.hidden
+{
+	display: none;
+}
+
+}
+body
+{
+	width:960px;
+	background-color:grey;
+}
+
+
+/* id makes a #cameraIcon*/
+/* class makes a .cameraIcon */
+/*
+#cameraIcon:detail_3_
+{ */
+/* trying to make disapear */
+
+/* @media screen and (max-width: 300px) {
+  snapchatIcon.detail_3_ {
+    display:none;
+  }
+} */
+
+#cameraIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+
+
+}
+#cameraIcon:hover
+{
+	height:65%;
+	width:65%;
+	box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+ transition:transform 0.3s;
+ 	padding: 10px,;
+	border-radius:15%;
+	transition: all .2s ease-in;
+
+}
+
+	/* display:min-width:20%;/* not working */ */
+
+
+
+#clockIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+}
+
+#clockIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+ transition:transform 0.3s;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in;
+}
+
+/*
+
+	@media screen and (max-width: 300px) {
+	  cloudIcon.detail_1_ {
+	    display:none;
+	  } */
+
+
+#cloudIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+}
+
+#cloudIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+ transition:transform 0.3s;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in;
+}
+/*
+
+	@media screen and (max-width: 300px) {
+	  locationIcon.detail {
+	    display:none;
+	  } */
+
+#locationIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+}
+#locationIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+ transition:transform 0.3s;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in;
+}
+/*
+
+	@media screen and (max-width: 300px) {
+	  phoneIcon.detail_1_ {
+	    display:none;
+	  } */
+
+#phoneIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+}
+
+#phoneIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+ transition:transform 0.3s;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in;
+}
+
+/*
+	@media screen and (max-width: 300px) {
+	  settingIcon.detail {
+	    display:none;
+	  } */
+
+#settingIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+}
+
+#settingIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+ transition:transform 0.3s;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in;
+}
+
+
+#snapchatIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+}
+/*
+@media screen and (max-width: 300px) {
+  snapchatIcon.detail_4_ {
+    display:none;
+  }
+} */
+#snapchatIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+ transition:transform 0.2s;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .3s ease-in;
+}
+/*
+#musicIcon:detail
+
+
+	@media screen and (max-width: 300px) {
+	  musicIcon.detail {
+	    display:none;
+	  } */
+
+
+#musicIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+}
+#musicIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+ transition:transform 0.3s;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in;
+}
+/*
+
+	@media screen and (max-width: 300px) {
+	  mailIcon.detail_2_ {
+	    display:none;
+	  } */
+
+
+#mailIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+}
+
+#mailIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+ transition:transform 0.3s;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in;
+}
+
+/*
+	@media screen and (max-width: 300px) {
+	  downloadIconIcon.detail {
+	    display:none;
+	  } */
+
+
+#downloadIcon
+{
+	height:50%;
+	width:50%;
+	background-color:none;
+	border-bottom: solid 1px #DDD;
+}
+
+#downloadIcon:hover
+{
+	height:65%;
+	width:65%;
+		box-shadow: 20px 20px 20px 5px grey;
+	/* background-color:#808080; */
+	transfrom:scale(1.2);
+ transition:transform 0.3s;
+ padding: 10px,;
+ border-radius:15%;
+ transition: all .2s ease-in;
+}
